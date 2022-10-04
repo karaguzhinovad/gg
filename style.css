@@ -1,0 +1,135 @@
+body {
+    background-color:ghostwhite;
+    }
+.caution {color:crimson }
+h1 {color:grey;}
+h2 {color:darkcyan}
+h3 {color:lightslategrey}
+a:hover[href] {background-color:lightskyblue
+    ;}
+#main-heading {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+.menu {
+    display: inline-flex;
+    list-style-type:circle;
+    position: absolute;
+    float: right;
+    right: 10px;
+    top: 10px; 
+    border: 1px outset black;
+}
+
+.menu li{
+    margin-right: 15px;
+    text-align: center;
+}
+.menu {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+.list-item {
+  background-color: red;
+  width: 100%;
+}
+
+.list-item:hover {
+  background-color: lightgrey;
+  cursor: pointer;
+}
+/* unvisited link */
+a:link {
+    color:slategray;
+    }
+    /* visited link */
+    a:visited {
+    color:navy;}
+
+.table {text-align: center;}
+.banner {
+    background-image: url('banner.jpg'); 
+    padding: 16px;
+        max-width: 9200px;
+        max-height: 394px;
+        font-size: xx-large;
+        color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }    
+.logo {position: absolute;
+    float: left;
+    right: 1158 px;
+    top: 12px; }
+#requirements {text-align: center;}
+.align {text-align: center;}
+
+.names {border: 2px dotted dashed solid double;}
+
+
+  @media screen and (max-width: 767px) { 
+body {color:  firebrick; font-size: 2.2rem;} 
+.logo img {
+  max-width: 100%;
+  height: auto;
+  }
+ .menu {
+    flex-direction: row;
+  flex-wrap: wrap; }
+.list-item {
+    width: 10%;
+  }  
+.banner {
+  max-width: 100%;
+  height: auto;
+  }
+#fphoto {
+    width: 50%;
+    height: auto;
+  }
+  {
+    width: 100%; background-color: lightgray; } } 
+
+@media screen and (min-width: 768px) {
+.logo img {
+  max-width: 100%;
+  height: auto;
+  }
+.menu {
+    flex-direction: row;
+    flex-wrap: wrap;
+  } 
+.list-item {
+    width: 20%;
+  }
+.banner {
+  max-width: 100%;
+  height: auto;
+  }
+#fphoto {
+    max-width: 50%;
+    height: 100%;
+  } 
+{width: 100%; background-color: lightgray; } }
+
+
+@media screen and ((min-width: 1024px) and (max-width: 1280px)) { body {color: black; font-size: 2.7rem;} 
+.logo img {
+  max-width: 100%;
+  height: auto;
+  }
+.menu {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .list-item {
+    width: 50%;
+  }
+.banner {
+  max-width: 100%;
+  height: auto;
+  }
+#fphoto {
+    width: 50%;
+    height: auto;
+  } }
+{width: 100%; background-color: lightgray; } }
+    
+  
